@@ -37,9 +37,13 @@ class PNB extends Bank {
  public class Main {
 
     public static void main(String[] args) {
-        Bank obj = new Bank();
+        Bank obj1 = new Bank();
+        SBI obj2 = new SBI();
+        PNB obj3 = new PNB();
 
-        SBI obj1 = new SBI();
+        obj1.RateOfInterest();
+        obj2.RateOfInterest();
+        obj3.RateOfInterest();
     }
     
 }
