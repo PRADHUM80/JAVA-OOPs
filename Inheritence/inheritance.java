@@ -7,7 +7,7 @@ class ParentClass{
     }
 }
 
-class childClass extends ParentClass
+class ChildClass extends ParentClass
 {
      void show()
      {
@@ -19,7 +19,7 @@ class childClass extends ParentClass
 
 public class inheritance {
     public static void main(String[] args) {
-        childClass child1 = new childClass();
+        ChildClass child1 = new ChildClass();
         child1.display();
         System.out.println();
         child1.show();
